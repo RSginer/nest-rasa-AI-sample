@@ -1,13 +1,7 @@
-# nest-rasa-AI-sample
+## Deploy Rasa NLU and Rasa Core using Docker
 
-## Description
-
-project-using-nest-and-rase-ai-sample
-
-## Deploy RASA NLU and RASA Core
-
-[https://nlu.rasa.com/]Rasa NLU Guide
-[https://core.rasa.com/]Rasa Core Guide
+[Rasa NLU Guide](https://nlu.rasa.com/)
+[Rasa Core Guide](https://core.rasa.com/)
 
 ```bash 
 # RASA NLU
@@ -16,6 +10,15 @@ docker run -p 5000:5000 --name rasa-nlu rasa/rasa_nlu
 #RASA CORE
 docker pull rasa/rasa_core
 docker run -p 5005:5005 --name rasa-core rasa/rasa_core
+```
+### Optional Rasa UI
+
+[Rasa UI Repo](https://github.com/paschmann/rasa-ui)
+
+```
+git clone https://github.com/paschmann/rasaui.git
+cd rasaui && npm install
+docker build -t rasa-ui .
 ```
 
 ## Installation

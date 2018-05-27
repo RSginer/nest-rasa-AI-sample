@@ -1,4 +1,4 @@
-# nest-rase-ai-sample
+# nest-rasa-AI-sample
 
 ## Description
 

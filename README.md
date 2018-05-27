@@ -1,4 +1,7 @@
-## Deploy Rasa NLU and Rasa Core using Docker
+# nestjs with rasa HTTP integration
+
+## Prerequisites
+### Deploy Rasa NLU & Rasa Core using Docker
 
 [Rasa NLU Guide](https://nlu.rasa.com/)
 
